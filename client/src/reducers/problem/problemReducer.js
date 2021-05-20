@@ -1,6 +1,18 @@
-export const PROBLEM_GET = 'problem/GET'
-export const PROBLEM_GET_SUCCESS = 'problem/GET_SUCCESS'
-export const PROBLEM_GET_FAILED = 'problem/GET_FAILED'
+export const PROBLEM_GET = 'problems/GET'
+export const PROBLEM_GET_SUCCESS = 'problems/GET_SUCCESS'
+export const PROBLEM_GET_FAILED = 'problems/GET_FAILED'
+export const PROBLEM_UPDATE = 'problems/UPDATE'
+export const PROBLEM_UPDATE_SUCCESS = 'problems/UPDATE_SUCCESS'
+export const PROBLEM_UPDATE_FAILED = 'problems/UPDATE_FAILED'
+export const PROBLEM_GET_LIST = 'problems/GET_LIST'
+export const PROBLEM_GET_LIST_SUCCESS = 'problems/GET_LIST_SUCCESS'
+export const PROBLEM_GET_LIST_FAILED = 'problems/GET_LIST_FAILED'
+export const PROBLEM_DELETE = 'problems/DELETE'
+export const PROBLEM_DELETE_SUCCESS = 'problems/DELETE_SUCCESS'
+export const PROBLEM_DELETE_FAILED = 'problems/DELETE_FAILED'
+export const PROBLEM_CREATE = 'problems/CREATE'
+export const PROBLEM_CREATE_SUCCESS = 'problems/CREATE_SUCCESS'
+export const PROBLEM_CREATE_FAILED = 'problems/CREATE_FAILED'
 
 const getProblemDetail = id => ({
   type: PROBLEM_GET,

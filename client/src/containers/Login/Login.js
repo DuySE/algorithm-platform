@@ -13,6 +13,6 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = {
   login: LoginActions.login,
-}
+};
 
 export default connect(mapStateToProps, mapDispatchToProps)(Login);
